@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 body {
-  background: url("/imagens/foto4.jpg");
+  background: url("/imagens/foto1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 90px;
-  color: #660322;
+  color: #ff9b05;
   text-align: center;
   font-family: "Indie Flower";
   margin: 0;
@@ -32,12 +32,13 @@ h1 {
 
 hr {
   height: 10px;
-  background: #660322;
+  background: #0400ff;
 }
 
 p {
   text-align: justify;
   margin: 0 auto;
+  color: white;
 }
 
 .box {

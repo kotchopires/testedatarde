@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  background: url("/imagens/foto4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+
+.px {
+  font-size: 40px;
+  font-family: impact;
+}
+.rem {
+  font-size: 2.5rem;
+  font-family: impact;
+}
+
+@font-face {
+  font-family: spider;
+  src: url("/arquivos/spider.ttf");
+}
+
+h1 {
+  font-size: 90px;
+  color: #660322;
+  text-align: center;
+  font-family: "Indie Flower";
+  margin: 0;
+}
+
+hr {
+  height: 10px;
+  background: #660322;
+}
+
+p {
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.box {
+  width: 60%;
+  margin: 30px auto;
+  background: rgba(0, 0, 0, 0.357);
+  padding: 10px;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.box span {
+  color: orange;
+  font-weight: 700;
+}

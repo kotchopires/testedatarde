@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(180deg, #febe01, black);
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 700;
+}
+hr {
+  background: black;
+  height: 10px;
+  width: 50%;
+  border: none;
+}
+.box {
+  background: black;
+  border-radius: 5px;
+  width: 50%;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.box h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+}
+.box p {
+  color: #b2b2b2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+.box a {
+  background: #febe01;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.box a:hover {
+  background: black;
+  color: #febe01;
+  border: 1px solid #febe01;
+}
+
+.box h2 span {
+  color: #febe01;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.box p span {
+  color: #febe01;
+  font-size: 20px;
+  font-weight: 700;
+}
